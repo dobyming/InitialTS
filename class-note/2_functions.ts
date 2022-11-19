@@ -8,6 +8,7 @@ function sum(a: number,b: number): number {
 
 //함수의 Optional Parameter
 function log(a: string, b?: string) {
-} //매개변수 2개 중에 일부만 사용하고 싶을때 syntax '?:' 활용
+    //매개변수 2개 중에 일부만 사용하고 싶을때 syntax '?:' 활용
+}
 log('hello world');
 log('hello ts','welcome');
